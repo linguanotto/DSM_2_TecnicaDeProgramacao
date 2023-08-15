@@ -1,19 +1,17 @@
-class Pessoa{
-    nome: string = "ana";
-    idade: number = 22;
-
-    imprimir (){
-        console.log( this.nome, this.idade );
-    }
+class Filme {
+  titulo: string;
+  duracao: number;
+  constructor(titulo: string, duracao: number) {
+    this.titulo = titulo;
+    this.duracao = duracao;
+  }
+  print(): void {
+    console.log(`O filme ${this.titulo} possui ${this.duracao} min.`);
+  }
 }
 
-const p = new Pessoa();
-p.imprimir();
-p.nome = "arley";
-p.imprimir();
+const dvpf = new Filme ("De volta para o futuro",116);
+const m = new Filme ("Matrix", 136);
 
-const q = new Pessoa();
-q.nome = "Marcelo";
-
-p.imprimir();
-q.imprimir();
+dvpf.print();
+m.print();
