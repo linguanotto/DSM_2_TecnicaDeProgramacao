@@ -6,7 +6,8 @@
   "scripts": {
     "um": "ts-node ./src/exercicio01",
     "dois": "ts-node ./src/exercicio02",
-    "tres": "ts-node ./src/exercicio03"
+    "tres": "ts-node ./src/exercicio03",
+    "quatro": "ts-node ./src/exercicio04"
   },
   "keywords": [],
   "author": "",
